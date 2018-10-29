@@ -1,0 +1,25 @@
+{
+  "name": "markup-2018q3",
+  "version": "1.0.0",
+  "description": "Homework",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NastyaLo/markup-2018q3.git"
+  },
+  "author": "loyko2802@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NastyaLo/markup-2018q3/issues"
+  },
+  "homepage": "https://github.com/NastyaLo/markup-2018q3#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
