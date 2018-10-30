@@ -76,10 +76,81 @@ h1 {
     text-transform: uppercase;
 }
 
+.main__authorization {
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    left: 0;
+
+    width: 100%;
+    height: 123px;
+
+    background-color: rgb(57, 208, 131);
+}
+
+.main__authorization__login,
+.main__authorization__register {
+    display: grid;
+    align-items: center;
+
+    height: 100%;
+
+    flex: 1;
+    
+    color: white;
+    font-size: 22px;
+    font-family: Lato;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.main__authorization__login {
+    padding-right: 310px;
+
+    background-color: rgb(32, 55, 71);
+
+    text-align: right;
+}
+
+.main__authorization__login::after {
+    content: '';
+  
+    position: absolute;
+    left: calc(50% - 15px);
+    top: 0;
+    
+    border-top: 123px solid rgb(32, 55, 71);
+    border-right: 30px solid transparent;
+}
+
+.main__authorization__register {
+    padding-left: 310px;
+    text-align: left;
+}
+
+.main__authorization__register::after {
+    content: '';
+  
+    position: absolute;
+    left: calc(50% - 15px);
+    top: 0;
+    
+    border-bottom: 123px solid rgb(57, 208, 131);
+    border-left: 30px solid transparent;
+}
+
 @font-face {
     font-family: "Lato";
     src: url("fonts/Lato-Medium.ttf");
     font-weight: 500;
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("fonts/Lato-Bold.ttf");
+    font-weight: bold;
 }
 
 @font-face {
