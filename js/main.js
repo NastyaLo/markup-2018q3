@@ -6,5 +6,21 @@ $(document).ready(function(){
         slidesToShow: 1,
         adaptiveHeight: true
     });
+
+    $("#login").on('click', function() {
+        $("#loginField").addClass('open');
+    });
+
+    $("#closeLogin").on('click', function() {
+       $("#loginField").removeClass('open');
+    });
+
+    $("#register").on('click', function() {
+        $("#registerField").addClass('open');
+     });
+
+     $("#closeRegister").on('click', function() {
+        $("#registerField").removeClass('open');
+     });
 });
-          
+       

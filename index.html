@@ -15,15 +15,15 @@
         <nav>
             <img class="header__nav__logo" src="images/logo.png" alt="Ghost Host">
             <div class="header__nav__menu">
-                <a class="header__nav__menu__home">Home</a>
-                <a class="header__nav__menu__domain">Domain</a>
-                <a class="header__nav__menu__hosting">Hosting</a>
-                <a class="header__nav__menu__clients">Clients</a>
-                <a class="header__nav__menu__blog">Blog</a>
-                <a class="header__nav__menu__support">Support</a>
+                <a class="header__nav__menu__home" href="#home">Home</a>
+                <a class="header__nav__menu__domain" href="#domain">Domain</a>
+                <a class="header__nav__menu__hosting" href="#hosting">Hosting</a>
+                <a class="header__nav__menu__clients" href="#rewiev">Clients</a>
+                <a class="header__nav__menu__blog" href="#blog">Blog</a>
+                <a class="header__nav__menu__support" href="#footer">Support</a>
             </div>
         </nav>
-        <div class="header__cover">
+        <div class="header__cover" id="home">
             <h1>Hello!</h1>
             <span>We love our work...</span>
             <span>And We're taking it seriously...</span>
@@ -31,10 +31,36 @@
     </header>
     <main>
         <div class="main__authorization">
-            <div class="main__authorization__login">login</div>
-            <div class="main__authorization__register">register</div>
+            <div class="main__authorization__login" id="login">login</div>
+            <div class="main__authorization__register" id="register">register</div>
+            <div class="main__authorization__field main__authorization__field--login" id="loginField">
+                <div>
+                    <div class="main__authorization__field__close" id="closeLogin">×</div>
+                    <span>Ghost host</span>
+                    <form action="">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="" id="email">
+                        <label for="password">Password:</label>
+                        <input type="password" name="" id="password">
+                        <button type="submit">submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="main__authorization__field main__authorization__field--register"id="registerField">
+                <div>
+                    <div class="main__authorization__field__close" id="closeRegister">×</div>
+                    <span>Create new account</span>
+                    <form action="">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="" id="email">
+                        <label for="password">Password:</label>
+                        <input type="password" name="" id="password">
+                        <button type="submit">register</button>
+                    </form>
+                </div>
+            </div>
         </div>
-        <div class="main__purchase">
+        <div class="main__purchase" id="domain">
             <h3>Would you like to buy a new domain ?</h3>
             <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum, id molestier.</span>
             <div class="main__purchase__choise">
@@ -58,7 +84,7 @@
                 <div class="mt-10">Transfer Price No</div>
             </div>
         </div>
-        <div class="main__packages"><img src="images/packages1.png" class="main__packages__bg">
+        <div class="main__packages" id="hosting"><img src="images/packages1.png" class="main__packages__bg">
             <div class="main__packages__package main__packages__basic">
                 <img src="images/anchor.png">
                 <h4 class="main__packages__package__title">basic package</h4>
@@ -128,7 +154,7 @@
                 <button>select plan</button>
             </div>
         </div>
-        <div class="main__about">
+        <div class="main__about" id="blog">
             <div class="main__about__info">
                 <span class="main__about__info__title"><b>About</b> Us</span>
                 <span class="main__about__info__text">
@@ -182,7 +208,7 @@
                 </div>
             </div>
         </div>
-        <div class="main__reviews">
+        <div class="main__reviews" id="rewiev">
             <img src="images/reviews.png">
             <div class="main__reviews__slider">
                 <div>
@@ -247,7 +273,7 @@
             </div>
         </div>
     </main>
-    <footer>
+    <footer id="footer">
         <div class="footer__bg"></div>
         <nav>
             <img class="footer__nav__logo" src="images/logo.png" alt="Ghost Host">
