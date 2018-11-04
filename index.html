@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ghost Host</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="slick.css"/>
+</head>
+<body>
+    <header>
+        <img src="images/mainBG.png" class="header__bg">
+        <nav>
+            <img class="header__nav__logo" src="images/logo.png" alt="Ghost Host">
+            <div class="header__nav__menu">
+                <a class="header__nav__menu__home" href="#home">Home</a>
+                <a class="header__nav__menu__domain" href="#domain">Domain</a>
+                <a class="header__nav__menu__hosting" href="#hosting">Hosting</a>
+                <a class="header__nav__menu__clients" href="#rewiev">Clients</a>
+                <a class="header__nav__menu__blog" href="#blog">Blog</a>
+                <a class="header__nav__menu__support" href="#footer">Support</a>
+            </div>
+        </nav>
+        <div class="header__cover" id="home">
+            <h1>Hello!</h1>
+            <span>We love our work...</span>
+            <span>And We're taking it seriously...</span>
+        </div>
+    </header>
+    <main>
+        <div class="main__authorization">
+            <div class="main__authorization__login" id="login">login</div>
+            <div class="main__authorization__register" id="register">register</div>
+            <div class="main__authorization__field main__authorization__field--login" id="loginField">
+                <div>
+                    <div class="main__authorization__field__close" id="closeLogin">×</div>
+                    <span>Ghost host</span>
+                    <form action="">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="" id="email">
+                        <label for="password">Password:</label>
+                        <input type="password" name="" id="password">
+                        <button type="submit">submit</button>
+                    </form>
+                </div>
+            </div>
+            <div class="main__authorization__field main__authorization__field--register"id="registerField">
+                <div>
+                    <div class="main__authorization__field__close" id="closeRegister">×</div>
+                    <span>Create new account</span>
+                    <form action="">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="" id="email">
+                        <label for="password">Password:</label>
+                        <input type="password" name="" id="password">
+                        <button type="submit">register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="main__purchase" id="domain">
+            <h3>Would you like to buy a new domain ?</h3>
+            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris ac nulla interdum, id molestier.</span>
+            <div class="main__purchase__choise">
+                <div class="main__purchase__choise__www">www.</div>
+                <input class="main__purchase__choise__domain" value="What do you want?">
+                <div class="main__purchase__choise__zone">
+                    <select>
+                        <option value=".com" selected>.com</option>
+                        <option value=".net">.net</option>
+                        <option value=".org">.org</option>
+                    </select>
+                </div>
+            </div>
+            <div class="main__purchase__options">
+                <div class="bb br mb-10">.COM</div>
+                <div class="bb br mb-10">1 year</div>
+                <div class="bb br mb-10">$9.00 USD</div>
+                <div class="bb mb-10">Transfer Price No</div>
+                <div class="br mt-10">.NET</div>
+                <div class="br mt-10">1 year</div>
+                <div class="br mt-10">$9.00 USD</div>
+                <div class="mt-10">Transfer Price No</div>
+            </div>
+        </div>
+        <div class="main__packages" id="hosting"><img src="images/packages1.png" class="main__packages__bg">
+            <div class="main__packages__package main__packages__basic">
+                <img src="images/anchor.png">
+                <h4 class="main__packages__package__title">basic package</h4>
+                <div class="main__packages__package__options">
+                    <div><span>Disk Space (GB)</span><span>50</span></div>
+                    <div><span>Subdomains</span><span>50</span></div>
+                    <div><span>Transfer (GB)</span><span>50</span></div>
+                    <div><span>Data bases</span><span>1</span></div>
+                    <div><span>Dashboards</span><span>1</span></div>
+                    <div><span>Control Panel & FTP</span></div>
+                    <div><span>Free Support</span></div>
+                </div>
+                <div class="main__packages__package__price">
+                    <span>15</span>
+                </div>
+                <button>select plan</button>
+            </div>
+            <div class="main__packages__package main__packages__normal">
+                <img src="images/half-star.png">
+                <h4 class="main__packages__package__title">normal package</h4>
+                <div class="main__packages__package__options">
+                    <div><span>Disk Space (GB)</span><span>100</span></div>
+                    <div><span>Subdomains</span><span>100</span></div>
+                    <div><span>Transfer (GB)</span><span>100</span></div>
+                    <div><span>Data bases</span><span>2</span></div>
+                    <div><span>Dashboards</span><span>2</span></div>
+                    <div><span>Control Panel & FTP</span></div>
+                    <div><span>Free Support</span></div>
+                </div>
+                <div class="main__packages__package__price">
+                    <span>30</span>
+                </div>
+                <button>select plan</button>
+            </div>
+            <div class="main__packages__package main__packages__big">
+                <img src="images/star.png"> 
+                <h4 class="main__packages__package__title">big package</h4>
+                <div class="main__packages__package__options">
+                    <div><span>Disk Space (GB)</span><span>150</span></div>
+                    <div><span>Subdomains</span><span>150</span></div>
+                    <div><span>Transfer (GB)</span><span>150</span></div>
+                    <div><span>Data bases</span><span>4</span></div>
+                    <div><span>Dashboards</span><span>4</span></div>
+                    <div><span>Control Panel & FTP</span></div>
+                    <div><span>Free Support</span></div>
+                </div>
+                <div class="main__packages__package__price">
+                    <span>40</span>
+                </div>
+                <button>select plan</button>
+            </div>
+            <div class="main__packages__package main__packages__biggest">
+                <img src="images/diamond.png">
+                <h4 class="main__packages__package__title">bigger package</h4>
+                <div class="main__packages__package__options">
+                    <div><span>Disk Space (GB)</span><span>250</span></div>
+                    <div><span>Subdomains</span><span>250</span></div>
+                    <div><span>Transfer (GB)</span><span>250</span></div>
+                    <div><span>Data bases</span><span>6</span></div>
+                    <div><span>Dashboards</span><span>6</span></div>
+                    <div><span>Control Panel & FTP</span></div>
+                    <div><span>Free Support</span></div>
+                </div>
+                <div class="main__packages__package__price">
+                    <span>70</span>
+                </div>
+                <button>select plan</button>
+            </div>
+        </div>
+        <div class="main__about" id="blog">
+            <div class="main__about__info">
+                <span class="main__about__info__title"><b>About</b> Us</span>
+                <span class="main__about__info__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                        Praesent feugiat eget diam sit amet molestie.Curabitur. 
+                        ut ipsum bibendum tortor lacinia fermentum nec joeıa.
+                        Mauris at augue libero. Fusce posuere, sapien nec poır.
+                        Uaee augsuada sed mauris in tincidunt...
+                </span>
+            </div>
+            <div class="main__about__staff">
+                <div class="main__about__staff__person">
+                    <div class="main__about__staff__person__photo">
+                        <img src="images/designer.png" alt="Jonny Doe">
+                    </div>
+                    <span class="main__about__staff__person__name">Jonny Doe</span>
+                    <span class="main__about__staff__person__position">Designer</span>
+                    <div class="main__about__staff__person__sosial-media">
+                        <a href="https:/facebook.com"><img src="images/fb.svg" alt="Facebook: Jonny Doe"></a>
+                        <a href="https:/twitter.com"><img src="images/tw.svg" alt="Twitter: Jonny Doe"></a>
+                        <a href="https:/unknown.com"><img src="images/link.svg" alt="Link: Jonny Doe"></a>
+                    </div>
+                </div>
+                <div class="main__about__staff__person">
+                    <div class="main__about__staff__person__photo">
+                        <img src="images/designer2.png" alt="Jonny Doe">
+                    </div>
+                    <span class="main__about__staff__person__name">Jonny Doe</span>
+                    <span class="main__about__staff__person__position">Designer</span>
+                    <div class="main__about__staff__person__sosial-media">
+                        <a href="https:/facebook.com"><img src="images/fb.svg" alt="Facebook: Jonny Doe"></a>
+                        <a href="https:/twitter.com"><img src="images/tw.svg" alt="Twitter: Jonny Doe"></a>
+                        <a href="https:/unknown.com"><img src="images/link.svg" alt="Link: Jonny Doe"></a>
+                    </div>
+                </div>
+                <div class="main__about__staff__person">
+                    <div class="main__about__staff__person__photo">
+                        <img src="images/designer3.png" alt="Jonny Doe">
+                    </div>
+                    <span class="main__about__staff__person__name">Jonny Doe</span>
+                    <span class="main__about__staff__person__position">Designer</span>
+                    <div class="main__about__staff__person__sosial-media">
+                        <a href="https:/facebook.com"><img src="images/fb.svg" alt="Facebook: Jonny Doe"></a>
+                        <a href="https:/twitter.com"><img src="images/tw.svg" alt="Twitter: Jonny Doe"></a>
+                        <a href="https:/unknown.com"><img src="images/link.svg" alt="Link: Jonny Doe"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__reviews" id="rewiev">
+            <img src="images/reviews.png">
+            <div class="main__reviews__slider">
+                <div>
+                    <div class="main__reviews__review">
+                        <blockquote>
+                            "Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
+                            interdum dolor pulvinar vitae."
+                        </blockquote>
+                        <cite>
+                            John Doe
+                        </cite>
+                    </div>
+                </div>
+                <div>
+                    <div class="main__reviews__review">
+                        <blockquote>
+                            "Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
+                            interdum dolor pulvinar vitae. "
+                        </blockquote>
+                        <cite>
+                            John Doe
+                        </cite>
+                    </div>
+                </div>
+                <div>
+                    <div class="main__reviews__review">
+                        <blockquote>
+                            "Suspendisse tempor turpis odio, sit amet cursus leo consequat non. Maecenas lacinia faucibus enimqui
+                            interdum dolor pulvinar vitae. "
+                        </blockquote>
+                        <cite>
+                            John Doe
+                        </cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main__advantages">
+            <div class="main__advantages__advantage">
+                <div>
+                    <img src="images/flash.png">
+                </div>
+                <span class="main__advantages__advantage__title">Fast Servers</span>
+                <span class="main__advantages__advantage__text">Nulla dapibus neque augue, quis 
+                    tincidunt tortor aliquam vitae.</span>
+            </div>
+            <div class="main__advantages__advantage">
+                <div>
+                    <img src="images/cloud.png">
+                </div>
+                <span class="main__advantages__advantage__title">Cloud Servers</span>
+                <span class="main__advantages__advantage__text">Nulla dapibus neque augue, quis 
+                    tincidunt tortor aliquam vitae.</span>
+            </div>
+            <div class="main__advantages__advantage">
+                <div>
+                    <img src="images/arrows.png">
+                </div>
+                <span class="main__advantages__advantage__title">Domain Transfer</span>
+                <span class="main__advantages__advantage__text">Nulla dapibus neque augue, quis 
+                    tincidunt tortor aliquam vitae.</span>
+            </div>
+            <div class="main__advantages__advantage">
+                <div>
+                    <img src="images/comments.png">
+                </div>
+                <span class="main__advantages__advantage__title">Live Support</span>
+                <span class="main__advantages__advantage__text">Nulla dapibus neque augue, quis 
+                    tincidunt tortor aliquam vitae.</span>
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="footer__bg"></div>
+        <nav>
+            <img class="footer__nav__logo" src="images/logo.png" alt="Ghost Host">
+            <div class="footer__nav__menu">
+                <a>Home</a>
+                <a>about us</a>
+                <a>Blog</a>
+                <a>policy</a>
+                <a>contact</a>
+            </div>
+        </nav>
+        <div class="footer__info">
+            <div class="footer__info__description">
+                    <div>
+                        Lorem ipsum dolor sit amet, consecteteeseurı
+                        adipiscing elit. Donec mollis commodoeesene
+                        que, non commodo risus volutpat vel.
+                        <br><br>
+                        Design by <b>Mert Can Eyriyer</b>.
+                    </div>
+            </div>
+            <div class="footer__info__links">
+                <div>
+                    <a>Support</a>
+                    <a>Account</a>
+                    <a>Product Catalog</a>    
+                    <a>Shortcodes</a>   
+                </div>
+                <div>
+                    <a>Site Map</a>
+                    <a>Whois Search</a>
+                    <a>Web Mail</a>
+                    <a>Find Domain</a>
+                </div>
+            </div>
+            <div class="footer__info__contacts">
+                <span><img src="images/phone.png"><a href="tel:000000000000">0000-0000-0000</a></span>
+                <span><img src="images/envelope.png"><a href="mailto:informationteam@ghosthost.com">informationteam@ghosthost.com</a></span>
+                <span>Lorem Ipsum Street, Lorem Avenue, 
+                    <br><br>
+                    Lorem Ipsum 
+                </span>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
